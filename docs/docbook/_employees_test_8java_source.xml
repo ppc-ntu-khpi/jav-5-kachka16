@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__employees_test_8java_source" xml:lang="en-US">
+<title>EmployeesTest.java</title>
+<indexterm><primary>src/test/EmployeesTest.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__employees_test_8java_source_1l00001"/><link linkend="_namespacetest">00001</link> <emphasis role="keyword">package&#32;</emphasis>test;
+<anchor xml:id="__employees_test_8java_source_1l00002"/>00002 
+<anchor xml:id="__employees_test_8java_source_1l00003"/>00003 <emphasis role="keyword">import</emphasis>&#32;<link linkend="_namespacedomain">domain</link>.*;
+<anchor xml:id="__employees_test_8java_source_1l00004"/>00004 
+<anchor xml:id="__employees_test_8java_source_1l00005"/><link linkend="_classtest_1_1_employees_test">00005</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classtest_1_1_employees_test">EmployeesTest</link>&#32;{
+<anchor xml:id="__employees_test_8java_source_1l00006"/>00006 
+<anchor xml:id="__employees_test_8java_source_1l00007"/><link linkend="_classtest_1_1_employees_test_1ad70902d3f061e371608d569788f37cda">00007</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">static</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classtest_1_1_employees_test_1ad70902d3f061e371608d569788f37cda">main</link>(String&#32;args[])&#32;{
+<anchor xml:id="__employees_test_8java_source_1l00008"/>00008 
+<anchor xml:id="__employees_test_8java_source_1l00009"/>00009 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;String[]&#32;skills&#32;=&#32;{<emphasis role="stringliteral">&quot;Microsoft&#32;Word&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;TeX&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;OpenOffice&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;Markdown&quot;</emphasis>};
+<anchor xml:id="__employees_test_8java_source_1l00010"/>00010 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_classdomain_1_1_editor">Editor</link>&#32;ed&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_classdomain_1_1_editor">Editor</link>(<emphasis role="keyword">true</emphasis>,&#32;skills,&#32;<emphasis role="stringliteral">&quot;Phil&#32;Coulson&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;Chief&#32;Editor&quot;</emphasis>,&#32;3,&#32;<emphasis role="stringliteral">&quot;Publishing&quot;</emphasis>);
+<anchor xml:id="__employees_test_8java_source_1l00011"/>00011 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_classdomain_1_1_employee">Employee</link>&#32;em&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_classdomain_1_1_employee">Employee</link>(<emphasis role="stringliteral">&quot;Melinda&#32;May&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;Assistant&quot;</emphasis>,&#32;1,&#32;<emphasis role="stringliteral">&quot;Publishing&quot;</emphasis>);
+<anchor xml:id="__employees_test_8java_source_1l00012"/>00012 
+<anchor xml:id="__employees_test_8java_source_1l00013"/>00013 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_classdomain_1_1_artist">Artist</link>&#32;art&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_classdomain_1_1_artist">Artist</link>(skills);
+<anchor xml:id="__employees_test_8java_source_1l00014"/>00014 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_classdomain_1_1_employee">Employee</link>[]&#32;people&#32;=&#32;{ed,&#32;em,&#32;art};
+<anchor xml:id="__employees_test_8java_source_1l00015"/>00015 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<link linkend="_classdomain_1_1_manager">Manager</link>&#32;man&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;<link linkend="_classdomain_1_1_manager">Manager</link>(people,&#32;<emphasis role="stringliteral">&quot;Steve&#32;Ballmer&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;CEO&quot;</emphasis>,&#32;3,&#32;<emphasis role="stringliteral">&quot;Publishing&quot;</emphasis>);
+<anchor xml:id="__employees_test_8java_source_1l00016"/>00016 
+<anchor xml:id="__employees_test_8java_source_1l00017"/>00017 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;System.out.println(man);
+<anchor xml:id="__employees_test_8java_source_1l00018"/>00018 
+<anchor xml:id="__employees_test_8java_source_1l00019"/>00019 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__employees_test_8java_source_1l00020"/>00020 }
+</programlisting></section>

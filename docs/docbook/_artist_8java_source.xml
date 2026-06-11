@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__artist_8java_source" xml:lang="en-US">
+<title>Artist.java</title>
+<indexterm><primary>src/domain/Artist.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__artist_8java_source_1l00001"/><link linkend="_namespacedomain">00001</link> <emphasis role="keyword">package&#32;</emphasis>domain;&#32;
+<anchor xml:id="__artist_8java_source_1l00005"/><link linkend="_classdomain_1_1_artist">00005</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classdomain_1_1_artist_1a366ea0daeaec32e7aedfa07fe0e68f21">Artist</link>&#32;<emphasis role="keyword">extends</emphasis>&#32;<link linkend="_classdomain_1_1_employee_1aae9ad6a9e1873c303a81a65f80f3c4ab">Employee</link>&#32;{
+<anchor xml:id="__artist_8java_source_1l00006"/>00006 
+<anchor xml:id="__artist_8java_source_1l00007"/>00007 
+<anchor xml:id="__artist_8java_source_1l00019"/><link linkend="_classdomain_1_1_artist_1a366ea0daeaec32e7aedfa07fe0e68f21">00019</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_artist_1a366ea0daeaec32e7aedfa07fe0e68f21">Artist</link>(String[]&#32;skiils,&#32;String&#32;name,&#32;String&#32;jobTitle,&#32;<emphasis role="keywordtype">int</emphasis>&#32;level,&#32;String&#32;dept)&#32;{&#32;
+<anchor xml:id="__artist_8java_source_1l00020"/>00020 
+<anchor xml:id="__artist_8java_source_1l00021"/>00021 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;super(name,&#32;jobTitle,&#32;level,&#32;dept);
+<anchor xml:id="__artist_8java_source_1l00022"/>00022 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.skiils&#32;=&#32;skiils;
+<anchor xml:id="__artist_8java_source_1l00023"/>00023 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__artist_8java_source_1l00024"/>00024 
+<anchor xml:id="__artist_8java_source_1l00025"/>00025 
+<anchor xml:id="__artist_8java_source_1l00033"/><link linkend="_classdomain_1_1_artist_1a8f866e98624339a7c567eb3f51167f45">00033</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_artist_1a8f866e98624339a7c567eb3f51167f45">Artist</link>(String[]&#32;skiils)&#32;{&#32;
+<anchor xml:id="__artist_8java_source_1l00034"/>00034 
+<anchor xml:id="__artist_8java_source_1l00035"/>00035 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;super();
+<anchor xml:id="__artist_8java_source_1l00036"/>00036 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.skiils&#32;=&#32;skiils;
+<anchor xml:id="__artist_8java_source_1l00037"/>00037 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__artist_8java_source_1l00038"/>00038 &#32;&#32;&#32;&#32;
+<anchor xml:id="__artist_8java_source_1l00039"/>00039 
+<anchor xml:id="__artist_8java_source_1l00046"/><link linkend="_classdomain_1_1_artist_1ae4a4a1f8f7f5d5a647f9bd46a78422d3">00046</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_artist_1ae4a4a1f8f7f5d5a647f9bd46a78422d3">Artist</link>()&#32;{&#32;
+<anchor xml:id="__artist_8java_source_1l00047"/>00047 
+<anchor xml:id="__artist_8java_source_1l00048"/>00048 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;super();
+<anchor xml:id="__artist_8java_source_1l00049"/>00049 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.skiils&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;String[10];
+<anchor xml:id="__artist_8java_source_1l00050"/>00050 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__artist_8java_source_1l00051"/>00051 
+<anchor xml:id="__artist_8java_source_1l00052"/>00052 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__artist_8java_source_1l00053"/>00053 
+<anchor xml:id="__artist_8java_source_1l00060"/><link linkend="_classdomain_1_1_artist_1acfdd6ce0dab62b9738f10b865579a633">00060</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;String&#32;<link linkend="_classdomain_1_1_artist_1acfdd6ce0dab62b9738f10b865579a633">toString</link>()&#32;{&#32;
+<anchor xml:id="__artist_8java_source_1l00061"/>00061 
+<anchor xml:id="__artist_8java_source_1l00062"/>00062 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;super.toString()+<emphasis role="stringliteral">&quot;\nSkills:&#32;&quot;</emphasis>+<link linkend="_classdomain_1_1_artist_1aaa8c4db9b1bde0da7ae964cf91f33d0d">getSkills</link>();
+<anchor xml:id="__artist_8java_source_1l00063"/>00063 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__artist_8java_source_1l00064"/>00064 
+<anchor xml:id="__artist_8java_source_1l00065"/>00065 &#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;String[]&#32;skiils;
+<anchor xml:id="__artist_8java_source_1l00066"/>00066 
+<anchor xml:id="__artist_8java_source_1l00067"/>00067 
+<anchor xml:id="__artist_8java_source_1l00074"/><link linkend="_classdomain_1_1_artist_1aaa8c4db9b1bde0da7ae964cf91f33d0d">00074</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;String&#32;<link linkend="_classdomain_1_1_artist_1aaa8c4db9b1bde0da7ae964cf91f33d0d">getSkills</link>()&#32;{&#32;
+<anchor xml:id="__artist_8java_source_1l00075"/>00075 
+<anchor xml:id="__artist_8java_source_1l00076"/>00076 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;String&#32;s&#32;=&#32;<emphasis role="stringliteral">&quot;&quot;</emphasis>;
+<anchor xml:id="__artist_8java_source_1l00077"/>00077 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">for</emphasis>&#32;(String&#32;e&#32;:&#32;skiils)&#32;{
+<anchor xml:id="__artist_8java_source_1l00078"/>00078 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;s&#32;=&#32;s&#32;+&#32;e&#32;+&#32;<emphasis role="stringliteral">&quot;,&#32;&quot;</emphasis>;
+<anchor xml:id="__artist_8java_source_1l00079"/>00079 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+<anchor xml:id="__artist_8java_source_1l00080"/>00080 &#32;&#32;&#32;&#32;&#32;&#32;&#32;s=s.substring(0,&#32;s.length()&#32;-&#32;2);
+<anchor xml:id="__artist_8java_source_1l00081"/>00081 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;s;
+<anchor xml:id="__artist_8java_source_1l00082"/>00082 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__artist_8java_source_1l00083"/>00083 
+<anchor xml:id="__artist_8java_source_1l00084"/>00084 
+<anchor xml:id="__artist_8java_source_1l00091"/><link linkend="_classdomain_1_1_artist_1a09961b80bff71a5d3f16e02f4dd90f3d">00091</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_artist_1a09961b80bff71a5d3f16e02f4dd90f3d">setSkills</link>(String[]&#32;skills)&#32;{&#32;
+<anchor xml:id="__artist_8java_source_1l00092"/>00092 
+<anchor xml:id="__artist_8java_source_1l00093"/>00093 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.skiils=skills;
+<anchor xml:id="__artist_8java_source_1l00094"/>00094 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__artist_8java_source_1l00095"/>00095 
+<anchor xml:id="__artist_8java_source_1l00096"/>00096 
+<anchor xml:id="__artist_8java_source_1l00103"/><link linkend="_classdomain_1_1_artist_1acf2fee5d7dd5fa8923b24569d5794e1e">00103</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;String[]&#32;<link linkend="_classdomain_1_1_artist_1acf2fee5d7dd5fa8923b24569d5794e1e">getSkillsLSist</link>()&#32;{&#32;
+<anchor xml:id="__artist_8java_source_1l00104"/>00104 
+<anchor xml:id="__artist_8java_source_1l00105"/>00105 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;skiils;
+<anchor xml:id="__artist_8java_source_1l00106"/>00106 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__artist_8java_source_1l00107"/>00107 }
+</programlisting></section>
