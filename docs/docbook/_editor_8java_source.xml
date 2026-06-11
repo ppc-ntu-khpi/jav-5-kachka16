@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__editor_8java_source" xml:lang="en-US">
+<title>Editor.java</title>
+<indexterm><primary>src/domain/Editor.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__editor_8java_source_1l00001"/>00001 <emphasis role="keyword">package&#32;</emphasis>domain;
+<anchor xml:id="__editor_8java_source_1l00002"/>00002 &#32;
+<anchor xml:id="__editor_8java_source_1l00006"/><link linkend="_classdomain_1_1_editor">00006</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classdomain_1_1_editor_1aba74a74377599f02338857d1a529dda5">Editor</link>&#32;<emphasis role="keyword">extends</emphasis>&#32;<link linkend="_classdomain_1_1_artist_1a366ea0daeaec32e7aedfa07fe0e68f21">Artist</link>&#32;{
+<anchor xml:id="__editor_8java_source_1l00007"/>00007 
+<anchor xml:id="__editor_8java_source_1l00008"/>00008 
+<anchor xml:id="__editor_8java_source_1l00021"/><link linkend="_classdomain_1_1_editor_1aba74a74377599f02338857d1a529dda5">00021</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_editor_1aba74a74377599f02338857d1a529dda5">Editor</link>(<emphasis role="keywordtype">boolean</emphasis>&#32;electronicEditing,&#32;String[]&#32;skiils,&#32;String&#32;name,&#32;String&#32;jobTitle,&#32;<emphasis role="keywordtype">int</emphasis>&#32;level,&#32;String&#32;dept)&#32;{&#32;
+<anchor xml:id="__editor_8java_source_1l00022"/>00022 
+<anchor xml:id="__editor_8java_source_1l00023"/>00023 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;super(skiils,&#32;name,&#32;jobTitle,&#32;level,&#32;dept);
+<anchor xml:id="__editor_8java_source_1l00024"/>00024 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.electronicEditing&#32;=&#32;electronicEditing;
+<anchor xml:id="__editor_8java_source_1l00025"/>00025 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__editor_8java_source_1l00026"/>00026 
+<anchor xml:id="__editor_8java_source_1l00027"/>00027 
+<anchor xml:id="__editor_8java_source_1l00036"/><link linkend="_classdomain_1_1_editor_1ad65142e0080a1b603bc88c0e50513eab">00036</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_editor_1ad65142e0080a1b603bc88c0e50513eab">Editor</link>(<emphasis role="keywordtype">boolean</emphasis>&#32;electronicEditing,&#32;String[]&#32;skiils)&#32;{&#32;
+<anchor xml:id="__editor_8java_source_1l00037"/>00037 
+<anchor xml:id="__editor_8java_source_1l00038"/>00038 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;super(skiils);
+<anchor xml:id="__editor_8java_source_1l00039"/>00039 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.electronicEditing&#32;=&#32;electronicEditing;
+<anchor xml:id="__editor_8java_source_1l00040"/>00040 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__editor_8java_source_1l00041"/>00041 
+<anchor xml:id="__editor_8java_source_1l00042"/>00042 
+<anchor xml:id="__editor_8java_source_1l00050"/><link linkend="_classdomain_1_1_editor_1a80a98c82186d71295c1834aa30aa3f34">00050</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_editor_1a80a98c82186d71295c1834aa30aa3f34">Editor</link>(<emphasis role="keywordtype">boolean</emphasis>&#32;electronicEditing)&#32;{&#32;
+<anchor xml:id="__editor_8java_source_1l00051"/>00051 
+<anchor xml:id="__editor_8java_source_1l00052"/>00052 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;super();
+<anchor xml:id="__editor_8java_source_1l00053"/>00053 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.electronicEditing&#32;=&#32;electronicEditing;
+<anchor xml:id="__editor_8java_source_1l00054"/>00054 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__editor_8java_source_1l00055"/>00055 &#32;&#32;&#32;&#32;
+<anchor xml:id="__editor_8java_source_1l00056"/>00056 
+<anchor xml:id="__editor_8java_source_1l00063"/><link linkend="_classdomain_1_1_editor_1ac3085707874b08710446fcfdc6684f5d">00063</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<link linkend="_classdomain_1_1_editor_1ac3085707874b08710446fcfdc6684f5d">Editor</link>()&#32;{&#32;
+<anchor xml:id="__editor_8java_source_1l00064"/>00064 
+<anchor xml:id="__editor_8java_source_1l00065"/>00065 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;super();
+<anchor xml:id="__editor_8java_source_1l00066"/>00066 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.electronicEditing&#32;=&#32;<emphasis role="keyword">true</emphasis>;
+<anchor xml:id="__editor_8java_source_1l00067"/>00067 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__editor_8java_source_1l00068"/>00068 
+<anchor xml:id="__editor_8java_source_1l00069"/>00069 &#32;&#32;&#32;&#32;@Override
+<anchor xml:id="__editor_8java_source_1l00070"/>00070 
+<anchor xml:id="__editor_8java_source_1l00077"/><link linkend="_classdomain_1_1_editor_1a289e633270450fb447cc140a70bf54ab">00077</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;String&#32;<link linkend="_classdomain_1_1_editor_1a289e633270450fb447cc140a70bf54ab">toString</link>()&#32;{&#32;
+<anchor xml:id="__editor_8java_source_1l00078"/>00078 
+<anchor xml:id="__editor_8java_source_1l00079"/>00079 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;String&#32;s=super.toString()+<emphasis role="stringliteral">&quot;\nEditing&#32;preferences=&#32;&quot;</emphasis>;&#32;
+<anchor xml:id="__editor_8java_source_1l00080"/>00080 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;(electronicEditing)
+<anchor xml:id="__editor_8java_source_1l00081"/>00081 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;s=s+<emphasis role="stringliteral">&quot;electronic&quot;</emphasis>;
+<anchor xml:id="__editor_8java_source_1l00082"/>00082 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">else</emphasis>
+<anchor xml:id="__editor_8java_source_1l00083"/>00083 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;s=s+<emphasis role="stringliteral">&quot;paper&quot;</emphasis>;
+<anchor xml:id="__editor_8java_source_1l00084"/>00084 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;s;
+<anchor xml:id="__editor_8java_source_1l00085"/>00085 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+<anchor xml:id="__editor_8java_source_1l00086"/>00086 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__editor_8java_source_1l00087"/>00087 
+<anchor xml:id="__editor_8java_source_1l00088"/>00088 &#32;&#32;&#32;&#32;<emphasis role="keyword">private</emphasis>&#32;<emphasis role="keywordtype">boolean</emphasis>&#32;electronicEditing;
+<anchor xml:id="__editor_8java_source_1l00089"/>00089 
+<anchor xml:id="__editor_8java_source_1l00090"/>00090 
+<anchor xml:id="__editor_8java_source_1l00097"/><link linkend="_classdomain_1_1_editor_1a506bd1923fa41001eaf88e2d0cbe7abd">00097</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">boolean</emphasis>&#32;<link linkend="_classdomain_1_1_editor_1a506bd1923fa41001eaf88e2d0cbe7abd">getPreferences</link>()&#32;{&#32;
+<anchor xml:id="__editor_8java_source_1l00098"/>00098 
+<anchor xml:id="__editor_8java_source_1l00099"/>00099 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;electronicEditing;
+<anchor xml:id="__editor_8java_source_1l00100"/>00100 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__editor_8java_source_1l00101"/>00101 
+<anchor xml:id="__editor_8java_source_1l00102"/>00102 
+<anchor xml:id="__editor_8java_source_1l00109"/><link linkend="_classdomain_1_1_editor_1aefe64348caffe4c4e3aa2cc14c7bbba0">00109</link> &#32;&#32;&#32;&#32;<emphasis role="keyword">public</emphasis>&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_classdomain_1_1_editor_1aefe64348caffe4c4e3aa2cc14c7bbba0">setPreferences</link>(<emphasis role="keywordtype">boolean</emphasis>&#32;electronic)&#32;{&#32;
+<anchor xml:id="__editor_8java_source_1l00110"/>00110 
+<anchor xml:id="__editor_8java_source_1l00111"/>00111 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;this.electronicEditing=electronic;
+<anchor xml:id="__editor_8java_source_1l00112"/>00112 &#32;&#32;&#32;&#32;}
+<anchor xml:id="__editor_8java_source_1l00113"/>00113 }
+</programlisting></section>

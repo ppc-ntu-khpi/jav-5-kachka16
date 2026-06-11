@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__technical_writer_8java_source" xml:lang="en-US">
+<title>TechnicalWriter.java</title>
+<indexterm><primary>src/domain/TechnicalWriter.java</primary></indexterm>
+Go to the documentation of this file.<programlisting linenumbering="unnumbered"><anchor xml:id="__technical_writer_8java_source_1l00001"/>00001 <emphasis role="keyword">package&#32;</emphasis>domain;
+<anchor xml:id="__technical_writer_8java_source_1l00002"/>00002 &#32;
+<anchor xml:id="__technical_writer_8java_source_1l00006"/><link linkend="_classdomain_1_1_technical_writer">00006</link> <emphasis role="keyword">public</emphasis>&#32;<emphasis role="keyword">class&#32;</emphasis><link linkend="_classdomain_1_1_technical_writer">TechnicalWriter</link>&#32;<emphasis role="keyword">extends</emphasis>&#32;<link linkend="_classdomain_1_1_artist_1a366ea0daeaec32e7aedfa07fe0e68f21">Artist</link>&#32;{
+<anchor xml:id="__technical_writer_8java_source_1l00007"/>00007 }
+</programlisting></section>

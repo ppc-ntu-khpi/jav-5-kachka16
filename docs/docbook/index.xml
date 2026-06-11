@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+    <info>
+    <title>My Project</title>
+    </info>
+<chapter>
+    <title>Directory Documentation</title>
+    <xi:include href="dir_59e154daa71ab644ff60a4d6c4d01bbf.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="dir_68267d1309a1af8e8297ef4c3efbcdba.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="dir_120ed4da3e3217b1e7fc0b4f48568e79.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Namespace Documentation</title>
+    <xi:include href="namespacedomain.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="namespacetest.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Class Documentation</title>
+    <xi:include href="classdomain_1_1_artist.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classdomain_1_1_editor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classdomain_1_1_employee.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classtest_1_1_employees_test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classdomain_1_1_graphic_illustrator.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classdomain_1_1_manager.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classdomain_1_1_technical_writer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>File Documentation</title>
+    <xi:include href="_artist_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_artist_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_editor_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_editor_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_employee_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_employee_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_graphic_illustrator_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_graphic_illustrator_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_manager_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_manager_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_technical_writer_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_technical_writer_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_employees_test_8java.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_employees_test_8java_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>
